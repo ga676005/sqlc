@@ -103,7 +103,7 @@ number of parameters.
 ```sql
 /* name: SelectStudents :many */
 SELECT * FROM students 
-WHERE age IN (sqlc.slice("ages"))
+WHERE age IN (sqlc.slice('ages'))
 
 -- >>> EXPANDS TO >>>
 
